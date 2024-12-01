@@ -74,8 +74,6 @@ export default function HeaderActions() {
     setDate(range)
   }
 
-  console.log('🚀 ~ HeaderActions ~ date:', date)
-
   return (
     <div className="flex items-center gap-2">
       {/* switch environment */}
